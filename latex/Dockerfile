@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu
 
 ADD latex/01_nodoc /etc/dpkg/dpkg.cfg.d/01_nodoc
 
